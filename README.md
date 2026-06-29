@@ -13,7 +13,7 @@ one image. Things like cropping, reversing, and fast-forwarding are really just
 operations on that list.
  
  
-WHAT IT CAN DO
+## What it can do
 
 - Black and white
 - Horizontal mirror
@@ -27,7 +27,7 @@ WHAT IT CAN DO
 - Save the movie to a file
  
  
-HOW THE FILES FIT TOGETHER
+## How the files fit together
 
 Image.c / Image.h
     The pixel-level layer. Defines the RGB Image and YUV YUVImage structs,
@@ -61,7 +61,7 @@ Constants.h
 Makefile
     Build rules.
  
-RUNNING IT
+## After running
 
 It will first ask you for:
   - the input movie file name
@@ -93,7 +93,7 @@ You can apply as many effects as you want before saving. When you're done,
 choose Save to write the result out, then Exit to quit.
  
  
-A FEW NOTES
+## A few notes
 
 - The input is raw YUV (4:2:0), so the program has no way of knowing the
   resolution or frame count on its own. You have to enter them correctly at
